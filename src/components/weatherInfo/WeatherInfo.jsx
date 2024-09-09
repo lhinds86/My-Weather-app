@@ -34,6 +34,14 @@ function WeatherInfo() {
             </div>
             {/* Middle Weather Info */}
             <div className={styles.middleInfo}>
+                <form>
+                    <input className={styles.searchBar} 
+                        name='searchBar'
+                        placeholder='Location'
+                        required
+                        />
+                </form>
+                <h2 className={styles.locationName}>Atlanta, GA</h2>
                 <img src={partlyCloudy} alt='Partly Cloudy' />
                 <h2>Sunny</h2>
             </div>
