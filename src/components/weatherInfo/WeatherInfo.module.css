@@ -1,19 +1,16 @@
 /* Global */
-
-
 .infoContainer {
     width: 1000px;
     height: 450px;
-    margin: 400px auto;
     background: #343434;
     color: #FFF;
     border-radius: 40px;
     box-shadow: 15px 15px 30px #000000a3;
+    
 }
 .weatherContainer {
     display: flex;
     padding: 30px;
-    
 }
 
 /* Left Weather Info */
@@ -52,7 +49,6 @@
 .middleInfo img {
     width: 50%;
     align-content: center;
-    
 }
 .middleInfo h2 {
     font-size: 2.3rem;
@@ -84,14 +80,12 @@ input.searchBar::placeholder {
     margin: 10px;
 }
 
-.humidity, .pressure {
-   
+.humidity, .pressure { 
     font-size: 1.2rem;
     margin-left: 40px;
     text-align: center;
 }
 .windSpeed, .uv{
- 
     font-size: 1.2rem;
     margin-left: 60px;
     text-align: center;
